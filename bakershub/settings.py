@@ -30,7 +30,13 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-naifatselina-bakershub-s8seqy97agy.ws-eu107.gitpod.io' , 'bakershub.herokuapp.com' , 'localhost']
+ALLOWED_HOSTS = [
+    'bakershub-2af44a4fc0e7.herokuapp.com',
+    '8000-naifatselina-bakershub-s8seqy97agy.ws-eu107.gitpod.io',
+    'bakershub.herokuapp.com',
+    'localhost'
+]
+
 
 
 # Application definition
