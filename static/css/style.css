@@ -86,12 +86,12 @@ body {
     z-index: 100;
 }
 
-.article-link {
+.post-link {
     text-decoration: none;
     color: #445261;
 }
 
-.article-link:hover,
+.post-link:hover,
 .page-link {
     color: #E84610;
 }
