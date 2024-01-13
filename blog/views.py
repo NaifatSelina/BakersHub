@@ -11,8 +11,8 @@ class ArticleList(generic.ListView):
 class ArticleDetail(View):
 
     def get(self, request, slug, *args, **kwargs):
-        queryset = Article.objects.filter(publication_statusstatus=1)
-        article = get_object_or_404(queryset, slug=slug)
+        queryset = Article.objects.filter(publication_status=1)
+        article = get_object_or_404(queryset, url_slug=slug)
         comments = article.comments.filter(approved=True).order_by("-publication_date")
         liked = False
         if article.likes.filter(id=self.request.user.id).exists():
@@ -22,7 +22,7 @@ class ArticleDetail(View):
             request,
             "article_detail.html",
             {
-                "article": post,
+                "article": article,  
                 "comments": comments,
                 "liked": liked
             },

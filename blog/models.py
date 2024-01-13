@@ -7,7 +7,6 @@ STATUS_CHOICES = [
     (0, 'Draft'),
     (1, 'Published'),
     (2, 'Archived'),
-    # Add more status choices as needed
 ]
 
 
