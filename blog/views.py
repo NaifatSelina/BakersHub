@@ -23,6 +23,36 @@ class ArticleDetail(View):
             {
                 "article": article,  
                 "comments": comments,
+                "commented": False,
+                "liked": liked,
+                "comment_form": CommentForm()
+            },
+        )
+
+
+    def post(self, request, slug, *args, **kwargs):
+        queryset = Article.objects.filter(publication_status=1)
+        article = get_object_or_404(queryset, url_slug=slug)
+        comments = article.comments.filter(is_approved=True).order_by("-created_at")
+        liked = request.user in article.readers.all()
+
+        comment_form = CommentForm(data=request.POST)
+        if comment_form.is_valid():
+            comment_form.instance.email = request.user.email
+            comment_form.instance.name = request.user.username
+            comment = comment_form.save(commit=False)
+            comment.article = article
+            comment.save()
+        else:
+            comment_form = CommentForm()
+
+        return render(
+            request,
+            "article_detail.html",
+            {
+                "article": article,  
+                "comments": comments,
+                "commented": True,
                 "liked": liked,
                 "comment_form": CommentForm()
             },
