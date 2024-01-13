@@ -14,9 +14,7 @@ class ArticleDetail(View):
         queryset = Article.objects.filter(publication_status=1)
         article = get_object_or_404(queryset, url_slug=slug)
         comments = article.comments.filter(is_approved=True).order_by("-created_at")
-        liked = False
-        if article.likes.filter(id=self.request.user.id).exists():
-            liked = True
+        liked = request.user in article.readers.all()
 
         return render(
             request,
