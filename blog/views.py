@@ -1,5 +1,6 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
+from django.http import HttpResponseRedirect
 from .models import Article
 from .forms import CommentForm
 
@@ -57,3 +58,16 @@ class ArticleDetail(View):
                 "comment_form": CommentForm()
             },
         )
+
+    
+class ArticleLike(View):
+    
+    def post(self, request, slug, *args, **kwargs):
+        article = get_object_or_404(Article, url_slug=slug)
+        
+        if article.readers.filter(id=request.user.id).exists():
+            article.readers.remove(request.user)
+        else:
+            article.readers.add(request.user)
+
+        return HttpResponseRedirect(reverse('article_detail', args=[slug]))
