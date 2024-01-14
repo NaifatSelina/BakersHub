@@ -26,11 +26,9 @@ You can view the live site here - <a href="https://bakershub-2af44a4fc0e7.heroku
     * [Footer](<#footer>)
     * [Sign Up](<#sign-up>)
     * [Login](<#login>)
-    
 * [**Existing Features (Admin)**](<#existing-features-for-admin>)
     * [Articles](<#Articless>)
     * [Comments](<#comments>)
-    * [Likes](<#likes>)
     * [Accounts](<#accounts>)
 * [**Future Features**](<#future-features>)
     * [Article Creation](<#article-creation>)
@@ -187,7 +185,7 @@ In the management of the Bakers Hub project, I extensively employed GitHub's rob
       * Users are given a simple sign up page which follows the colour scheme of the rest of the site.<br /><br />
 
 
-![Sign Up](images/sign%20up%20wire.png)
+![Sign Up](images/sign%20up.png)
 </details><br />
 
 
@@ -196,6 +194,32 @@ In the management of the Bakers Hub project, I extensively employed GitHub's rob
       * Users are given a simple sign in page which follows the colour scheme of the rest of the site, of course they are also able to navigate to the logout navigation link and click the signout button.<br /><br />
 
 
-![Login](images/sign%20in%20wire.png)
+![Login](images/sign%20in.png)
 ![Login](images/sign%20out.png)
+</details><br />
+
+## Existing Features For Admin
+
+  * ### Articles
+
+      * The admin is able to view all article, article details and create articles and see who has read the article. The admin is even able to delete articles.<br /><br />
+
+![Admin Article](images/admin%20articles.png)
+![Admin Article](images/admin%20art%20details.png)
+![Admin Article](images/admin%20art%20details%20II.png)
+</details><br />
+
+
+  * ### Comments
+
+      * The admin is able to view all comments and approve or disapprove of comments.<br /><br />
+
+![Admin Comments](images/admin%20comment.png)
+</details><br />
+
+  * ### Articles
+
+      * The admin is able to view all user accounts, see whether they are staff or not and delete the user if needed.<br /><br />
+
+![Admin Accounts](images/admin%20users.png)
 </details><br />
