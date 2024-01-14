@@ -116,3 +116,12 @@ The design wireframes were created using [Figma](https://www.figma.com/). I crea
 ![Colour Palette](images/dark%20green.png)
 ![Colour Palette](images/light%20green.png)
 ![Colour Palette](images/pink.png)
+
+
+## Project Management
+
+ * ### GitHub Project Board
+In the management of the Bakers Hub project, I extensively employed GitHub's robust project management features, including GitHub Projects, Issues, and Kanban boards. This approach allowed me to effectively break down, organize, and plan user stories, demonstrating my adeptness at project planning within an Agile framework. Despite being a solo project, the utilization of GitHub's tools proved invaluable. <br /><br />
+
+![GitHub Project](images/issues.png)
+![GitHub Project](images/Kanban-%20Project.png)
