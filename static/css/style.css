@@ -35,6 +35,10 @@ a {
     background-color: #c9d9d2!important;
 }
 
+copyright {
+    font-size: small;
+}
+
 .thin {
     font-weight: 300;
 }
