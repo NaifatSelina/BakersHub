@@ -516,3 +516,20 @@ The live link to the Github repository can be found here - https://github.com/Na
 
 [Back to top](<#contents>)
 
+# Credits
+
+### Content
+
+* I used the amazing I Think Therefore I blog walkthrough as inspiration for my BakerHub site- it massively helped me.
+
+### Media
+
+* All the images used were from [Pexels](https://www.pexels.com/).
+* The icons were from [Font Awesome](https://fontawesome.com/).
+
+
+[Back to top](<#contents>)
+
+Naifat 2024.
+
+[Back to top](<#contents>)
