@@ -21,13 +21,13 @@ You can view the live site here - <a href="https://bakershub-2af44a4fc0e7.heroku
     * [Site Navigation Bar](<#site-responsive-navigation-bar>)
     * [Article](<#article>)
     * [Article Details](<#article-details>)
+    * [Comment](<#comment>)
+    * [Like](<#like>)
     * [Footer](<#footer>)
     * [Sign Up](<#sign-up>)
     * [Login](<#login>)
-    * [Like](<#like>)
-    * [Comment](<#comment>)
-    * [404 & 500 Pages](<#404-and-500-error-pages>)
-* [**Existing Existing Features (Staff Member)**](<#existing-features-for-staff-member>)
+    
+* [**Existing Features (Admin)**](<#existing-features-for-admin>)
     * [Articles](<#Articless>)
     * [Comments](<#comments>)
     * [Likes](<#likes>)
@@ -125,3 +125,77 @@ In the management of the Bakers Hub project, I extensively employed GitHub's rob
 
 ![GitHub Project](images/issues.png)
 ![GitHub Project](images/Kanban-%20Project.png)
+
+## Existing Features For Site User
+
+  * ### Site Responsive Navigation Bar
+
+      * The navigation bar is simple with the home, sign up and login links. The Bakers|Hub site links back to the homepage aswell. The navigation header section also includes a quote on the right hand side for something fun and different. On smaller screens this collapses into a burger menu icon.<br /><br />
+
+
+![Navigation Bar](images/navbar.png)
+![Navigation Bar](images/burger%20menu.png)
+</details><br />
+
+
+  * ### Article
+
+      * The Articles posted in the hub site can be seen in the homepage, I aimed to keep the presentation clean and minimal, the light background contrasts well with the images providing a fresh feel. Users can scroll and see the different recipies in which they can explore and look at without feeling overwhelmed with different things on the page - only recipies. For further context their is the detail of the post maker on the images, followed by a title of the recipe, brief description and the like/comment count. So users can see the newest recipies first I included the publication dates on the articles and made it to the newest ones will appear at the top. For regular visitors this is great as it means that when revisiting they're always met with new and exciting recipies without having to continuously scroll to fish out new entries.<br /><br />
+
+
+![Article](images/homepage.png)
+</details><br />
+
+  * ### Article Details
+
+      * The Articles posted in the hub site can be seen in the homepage, when users click on the recipe title they're taken to a article details page where they can view the actual recipe. This page includes all the details that were previously stated on the homepage but also has the ingredients needed for the recipe and the instructions to make the treat too. At the bottom of this page you can find the functionality to like the post and add/read comments which I will detail shortly below.<br /><br />
+
+
+![Article Details](images/articledetails.png)
+</details><br />
+
+  * ### Comment
+
+      * The Articles Details page ends with the user being able to leave a comment or view comments made on the post. The post has to wait for admin approval before it can be published onto the post but the user recieves a confirmation message regardless so they know the comment has been processed while they wait.<br /><br />
+
+
+![Comment](images/making%20a%20comment.png)
+![Comment](images/submitted%20comment.png)
+</details><br />
+
+
+  * ### Like
+
+      * The Articles Details page ends with the user being able to leave a comment or view comments made on the post. The post has to wait for admin approval before it can be published onto the post but the user recieves a confirmation message regardless so they know the comment has been processed while they wait.<br /><br />
+
+
+![Like](images/leaving%20a%20like.png)
+</details><br />
+
+
+  * ### Footer
+
+      * The Footer is sleek and simple, a warming forest green with white writing to further accesibility, it include various social media icons with links- for educational purposes of course so they only lead to the homepage of each respective site.<br /><br />
+
+
+![Footer](images/footer.png)
+</details><br />
+
+
+  * ### Sign Up
+
+      * Users are given a simple sign up page which follows the colour scheme of the rest of the site.<br /><br />
+
+
+![Sign Up](images/sign%20up%20wire.png)
+</details><br />
+
+
+  * ### Login
+
+      * Users are given a simple sign in page which follows the colour scheme of the rest of the site, of course they are also able to navigate to the logout navigation link and click the signout button.<br /><br />
+
+
+![Login](images/sign%20in%20wire.png)
+![Login](images/sign%20out.png)
+</details><br />
