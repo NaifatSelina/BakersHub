@@ -42,7 +42,6 @@ You can view the live site here - <a href="https://bakershub-2af44a4fc0e7.heroku
 * [**Credits**](<#credits>)
     * [**Content**](<#content>)
     * [**Media**](<#media>)
-*  [**Acknowledgments**](<#acknowledgements>)
 
 # Objective
 
