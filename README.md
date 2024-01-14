@@ -424,3 +424,95 @@ In addition to the other tests, I have conducted a manual check list for myself 
     * Another bug I wish I could have fixed was the fact that the commentors name does not appear next to the comment and there is no reason why. I done extensive troubleshooting but was unfortunately unable to rectify this bug. I aim to fix it in the next release of this webpage.
 
     [Back to top](<#contents>)
+
+
+# Deployment To Heroku
+  
+The project was deployed to [Heroku](https://www.heroku.com). The deployment process is as follows: 
+  
+### 1. Create a new GitHub repository from CI template:
+
+* Firstly we need to create a new GitHub repository. Head over to this [link](https://github.com/Code-Institute-Org/gitpod-full-template) and click 'Use this template'</br></br>
+
+
+* Fill in the appropriate details and then click 'Create repository from template'</br></br>
+* Create your respository and open it up in Gitpod.
+
+
+### 2. Installing Django and supporting libraries:
+
+* Now it's time to install Django and it's supporting libraries. In the terminal, type the following commands: <br/><br/>
+    * ```pip3 install 'django<3.2' gunicorn```
+    * ```pip3 install dj_database_url psycopg2```
+    * ```pip3 install dj3-cloudinary-storage```
+<br/><br/>
+
+* After you have successfully installed the above, type the following command: <br/><br/>
+    * ```pip3 freeze --local > requirements.txt```
+    <br/><br/>
+
+* This will create a requirements.txt file. <br/><br/>
+
+* Now we need to create our Django project and the applications. In the terminal type the following command: <br/><br/>
+
+    * ```django-admin startproject PROJ_NAME .``` 
+    * ```django-admin startapp APP_NAME .``` <br/><br/>
+
+* You then need to add your application to the INSTALLED_APPS section in your settings.py as shown below</br></br>
+
+* Then type the following commands in the terminal:  <br/><br/>
+    * ```python manage.py migrate```  
+    * ```python manage.py runserver```   <br/><br/>
+
+### 3. Deploying an app to Heroku:
+
+* After you have successfully navigated to [Heroku](https://dashboard.heroku.com/apps), created an account and logged in, click 'New' and then click 'Create new app'</br></br>
+* Pick a suitable app name and choose your preferred region. Since I live in the United Kingdom, I have chosen Europe as my region</br></br>
+
+* Inside your application, click the 'Resources' tab and then search for 'Heroku Postgres'. Attach this to your project as a database by clicking 'Submit Order Form'. If done correctly, you should see the below image.</br></br>
+
+* If you click the Heroku Postgres link, it will then open a new page which has all the information about your new Heroku Postgres database. This is where we will find our credentials. Click 'Settings' and then click 'View Credentials' and you will then see the below image (with your details not mine)
+
+* The piece of information that we are particularly interested in, is the URI. </br></br>
+
+* Since we are in Heroku, navigate to your project settings and click 'Reveal Config Vars'. Add your Heroku config vars to your project as shown below 
+
+    * DISABLE_COLLECTSTATIC = 1 is a temporary step for the moment and it will be removed before deployment</br></br>
+
+* Create a new file called ***env.py*** and ensure this is added to your gitignore file. Copy the below code but change the variable content to your specific details.</br></br>
+
+* In settings.py, look for the line that says '**from pathlib import Path**' and then insert the code below.</br></br>
+
+* Replace the default random security key that Django provides with your SECRET_KEY that you created in your env.py file.</br></br>
+
+* Set **DEBUG = 'DEVELOPMENT' in os.environ**. This allows you to have DEBUG set to True when developing locally, however DEBUG will be set to False when deployed to Heroku.</br></br> 
+
+* Add the cloudinary application to the INSTALLED_APPS in settings.py. Take notice of the order, this is important.</br></br>
+
+* Find **STATIC_URL = '/static/'** in your settings.py file and tell Django to use Cloudinary to store media and static files.</br></br>
+
+* Add your allowed hosts to ALLOWED_HOSTS.</br></br>
+
+* Now we need to create 3 new folders and 1 new file on the top level directory </br></br>
+    * **media** (folder)
+    * **static** (folder)
+    * **templates** (folder)
+    * **Procfile** (file)
+
+* Within the Procfile, add the following line of code ```web: gunicorn PROJ_NAME.wsgi```. PROJ_NAME is the name of your application. If done correctly, your project directory should look like the below image.
+
+* Make sure to save all files and then type the following commands in the terminal: </br></br>
+    * ```git add .```
+    * ```git commit -m "Deployment commit"```
+    * ```git push```
+
+* The final step is to then deploy your application. My preferred way of deployment was to use the Heroku CLI. </br></br>
+    * ```heroku login``` - This will open a new window for you to log in
+    * ```heroku git:remote -a PROJ_NAME``` - This will tell Heroku to build your application from this repo 
+    * ```git push heroku main``` - This will build your application</br></br>
+
+
+The live link to the Github repository can be found here - https://github.com/NaifatSelina/BakersHub
+
+[Back to top](<#contents>)
+
