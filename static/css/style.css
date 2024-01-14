@@ -31,6 +31,10 @@ a {
     background: #f458be;
 }
 
+.bg-white {
+    background-color: #c9d9d2!important;
+}
+
 .thin {
     font-weight: 300;
 }
