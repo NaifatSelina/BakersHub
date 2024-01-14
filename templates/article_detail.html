@@ -16,9 +16,9 @@
             <div class="d-none d-md-block col-md-6 masthead-image">
                 <!-- The featured image URL goes in the src attribute -->
                 {% if "default_image" in article.featured_image.url %}
-                <img src="{% static 'path/to/default_image.jpg' %}" width="100%">
+                <img src="{% static 'path/to/default_image.jpg' %}" width="100%" alt="Default Image Alt Text">
                 {% else %}
-                <img src="{{ article.featured_image.url }}" width="100%">
+                <img src="{{ article.featured_image.url }}" width="100%" alt="{{ article.featured_image.alt }}">
                 {% endif %}
             </div>
         </div>

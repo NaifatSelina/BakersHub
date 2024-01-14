@@ -282,3 +282,62 @@ All the libraries used for this project are located in the requirements.txt file
 * [requests-oauthlib](https://pypi.org/project/requests-oauthlib/) - OAuthlib authentication support for Requests.
 * [sqlparse](https://pypi.org/project/sqlparse/) - Non-validating SQL parser.
 
+
+# Testing
+
+* ## Code Validation
+
+    * Bakers Hub has been validated by using online validation tools [W3C HTML Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), [JSHint JavaScript Validator](https://jshint.com/) and the [PEP8 Online Validator](http://pep8online.com/).
+
+* ### HTML Validation Image
+
+    ![HTML Validation](static/images/readme-images/html-validation-image.png)
+
+* ### CSS Validation Image
+
+    ![CSS Validation](static/images/readme-images/css-validation-image.png)
+
+* ### JSHint map.js Image
+
+    ![JavaScript Validation](static/images/readme-images/jshint-map-js-image.png)
+
+    * The JavaScript code for map.js was taken from the Code Institute Resume Project which shows students how to integrate google maps on a website.
+
+* ### JSHint nav.js Image
+
+    ![JavaScript Validation](static/images/readme-images/jshint-nav-js-image.png)
+
+* ### PEP8 Validation Image (accounts/apps.py)
+
+    <details><summary><b>PEP8 Validation Image</b></summary>
+
+    ![PEP8 Validation (accounts/apps.py)](static/images/readme-images/pep8-accounts-apps.png)
+    </details><br />
+
+* ## Lighthouse Testing 
+
+    * Furthermore the website has been through the [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) Lighthouse Testing which tests the website for the following:
+        * Performance - How the page performs whilst loading.
+        * Accessibility - Is the site accessible for all players and how can it be improved.
+        * Best Practices - Site conforms to industry best practices.
+        * SEO - Search Engine Optimisation. Is the site optimised for search engine result rankings.
+
+    * The lighthouse tests were conducted in incognito/private windows due to extensions interfering with the results.<br /><br />
+
+* ### Chrome Desktop Lighthouse Result - Home Page
+
+    ![Chrome Desktop Lighthouse](static/images/readme-images/desktop-lighthouse-home-image.png)
+
+
+* ## Accessibility Testing
+    * I also put the website through [a11y](https://color.a11y.com/Contrast/) to further test the contrast and found no issues. <br /><br />
+
+    ![a11y Test](static/images/readme-images/a11y-contrast-image.png)
+
+* ## Responsiveness Testing
+    * I conducted responsive tests manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).<br /><br />
+
+    ![Responsive Test Sheet](static/images/readme-images/responsive-check-image.png)
+
+
+    ![Responsive Test Sheet](static/images/readme-images/mobile-responsive-check-image.png)
