@@ -1,12 +1,13 @@
 body {
     background-color: #fcf9fc;
+    font-style: "Playfair Display", sans-serif;
 }
 
 .brand {
     font-family: "Satisfy", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: large;  
+    font-size: xx-large;  
     color: #4A4A4F;
 }
 
