@@ -78,3 +78,14 @@ For my fourth project, I aim to develop a practical platform for a baking commun
 | As a Site Admin | I can create draft posts so that I can finish writing the content later| &check; |
 | As a Site Admin | I can approve or disapprove comments so that I can filter out objectionable comments | &check; |
 
+## Design Prototype
+
+The design wireframes were created using [Figma](https://www.figma.com/). I created a very basic wire frame as I knew that I didn't wannt the webpage to be too complicated, I wanted the focus to just be on recipes and I wanted it to be accessable for all- complicated webpages reduce accessibility and I highly wanted to avoid this. This is an extremely important part of the design process as it allows me to understand what components I want to add where.<br /><br />
+
+
+![Figma](images/home%20wire.png)
+![Figma](images/detail%20wire.png)
+![Figma](images/sign%20in%20wire.png)
+![Figma](images/sign%20up%20wire.png)
+
+[Back to top](<#contents>)
