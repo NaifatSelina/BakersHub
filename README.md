@@ -237,3 +237,48 @@ In the management of the Bakers Hub project, I extensively employed GitHub's rob
 * ### User Profile Page
 
     * Currently, when a user creates an account on Bakers Hub, all the essential functionalities for navigation, recipe submissions, and engagement with the platform are available. However, I am working on introducing a specialized profile page that will enable users to personalize their experience by changing and viewing profile details, accessing their recipe submissions, reviewing interactions and exploring personalized data related to their baking journey on Bakers Hub.
+
+
+# Technologies Used
+* [Django](https://www.djangoproject.com/) - A model-view-template framework used to create Bakers Hub.
+* [Bootstrap](https://getbootstrap.com/) - A CSS framework used to aid in front-end development 
+* [HTML5](https://en.wikipedia.org/wiki/HTML) - Provides the content and structure for the website.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) - Provides the styling for the website.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Provides interactive elements of the website.
+* [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) - Provides the functionality of the website.
+* [a11y](https://color.a11y.com/Contrast/) - Used to test the contrast and accessibility.
+* [GitHub](https://github.com/) - Used to host and deploy the website.
+* [Gitpod](https://www.gitpod.io/) - Used to develop the application.
+* [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) - Used to test responsiveness and debug.
+* [Responsive Design Checker](https://www.responsivedesignchecker.com/) - Used to test responsiveness.
+* [Figma](https://www.figma.com/) - Used to create the wire-frame.
+* [Cloudinary](https://cloudinary.com/) - Used to host all static files.
+* [Heroku](https://dashboard.heroku.com) - Used to deploy the website.
+* [PEP8 Validation](http://pep8online.com/) - Used to validate Python code.
+* [HTML Validation](https://validator.w3.org/) - Used to validate HTML code.
+* [CSS Validation](https://jigsaw.w3.org/css-validator/) - Used to validate CSS code.
+* [JSHint Validation](https://jshint.com/) - Used to validate JavaScript code.
+
+
+# Libraries
+
+All the libraries used for this project are located in the requirements.txt file which has been created in a virtual environment.
+
+
+* [asgiref](https://pypi.org/project/asgiref/) - ASGI reference implementation, including a server (Daphne), specification, and utilities.
+* [cloudinary](https://pypi.org/project/cloudinary/) - Cloudinary is a cloud service that offers a solution to a web application’s entire image management pipeline.
+* [dj-database-url](https://pypi.org/project/dj-database-url/) - Use Database URLs in your Django application.
+* [dj3-cloudinary-storage](https://pypi.org/project/dj3-cloudinary-storage/) - A Django storage backend for Cloudinary.
+* [Django](https://pypi.org/project/Django/) - Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.
+* [django-allauth](https://pypi.org/project/django-allauth/) - Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.
+* [django-crispy-forms](https://pypi.org/project/django-crispy-forms/) - Used to integrate Django DRY forms.
+* [django-summernote](https://pypi.org/project/django-summernote/) - Summernote plugin for Django.
+* [gunicorn](https://pypi.org/project/gunicorn/) - Gunicorn ‘Green Unicorn’ is a Python WSGI HTTP Server for UNIX.
+* [oauthlib](https://pypi.org/project/oauthlib/) - A generic, reusable library for implementing OAuth1 and OAuth2.
+* [psycopg2](https://pypi.org/project/psycopg2/) - Psycopg is the most popular PostgreSQL database adapter for the Python programming language.
+* [PyJWT](https://pypi.org/project/PyJWT/) - JSON Web Token implementation in Python.
+* [python3-openid](https://pypi.org/project/python3-openid/) - Python OpenID library.
+* [pytz](https://pypi.org/project/pytz/) - World timezone definitions, modern and historical.
+* [requests-oauthlib](https://pypi.org/project/requests-oauthlib/) - OAuthlib authentication support for Requests.
+* [sqlparse](https://pypi.org/project/sqlparse/) - Non-validating SQL parser.
+
