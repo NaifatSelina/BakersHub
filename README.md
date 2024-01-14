@@ -45,3 +45,36 @@ You can view the live site here - <a href="https://bakershub-2af44a4fc0e7.heroku
     * [**Content**](<#content>)
     * [**Media**](<#media>)
 *  [**Acknowledgments**](<#acknowledgements>)
+
+# Objective
+
+For my fourth project, I aim to develop a practical platform for a baking community, showcasing my proficiency in various technologies. The primary goal is to create an authentic and user-friendly website that can be seamlessly applied in a real-world context. This project will serve as a testament to my expertise in HTML, CSS, JavaScript, Python, and the Django Framework, highlighting attention to detail testing practices throughout the development process.
+
+[Back to top](<#contents>)
+
+# User Experience (UX)
+
+## User Stories
+
+### Site User
+
+|  | | |
+|:-------:|:--------|:--------|
+| As a Site User | I can view a list of posts so that I can select one to read | &check; |
+| As a Site User | I can click on a post so that I can read the full text | &check; |
+| As a Site User | I can view the number of likes on each post so that I can see which is the most popular or viral | &check; |
+| As a Site User | I can view comments on an individual post so that I can read the conversation | &check; |
+| As a Site User | I can register an account so that I can comment and like | &check; |
+| As a Site User | I can leave comments on a post so that I can be involved in the conversation | &check; |
+| As a Site User | I can like or unlike a post so that I can interact with the content| &check; |
+
+### Site Admin
+
+|  | | |
+|:-------:|:--------|:--------|
+| As a Site Admin | I can view the number of likes on each post so that I can see which is the most popular or viral | &check; |
+| As a Site Admin | I can view comments on an individual post so that I can read the conversation | &check; |
+| As a Site Admin | I can create, read, update and delete posts so that I can manage my blog content| &check; |
+| As a Site Admin | I can create draft posts so that I can finish writing the content later| &check; |
+| As a Site Admin | I can approve or disapprove comments so that I can filter out objectionable comments | &check; |
+
