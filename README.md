@@ -254,7 +254,7 @@ In the management of the Bakers Hub project, I extensively employed GitHub's rob
 * [Figma](https://www.figma.com/) - Used to create the wire-frame.
 * [Cloudinary](https://cloudinary.com/) - Used to host all static files.
 * [Heroku](https://dashboard.heroku.com) - Used to deploy the website.
-* [PEP8 Validation](http://pep8online.com/) - Used to validate Python code.
+* [Python Checker](https://www.pythonchecker.com/) - Used to validate Python code.
 * [HTML Validation](https://validator.w3.org/) - Used to validate HTML code.
 * [CSS Validation](https://jigsaw.w3.org/css-validator/) - Used to validate CSS code.
 * [JSHint Validation](https://jshint.com/) - Used to validate JavaScript code.
@@ -287,31 +287,32 @@ All the libraries used for this project are located in the requirements.txt file
 
 * ## Code Validation
 
-    * Bakers Hub has been validated by using online validation tools [W3C HTML Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), [JSHint JavaScript Validator](https://jshint.com/) and the [PEP8 Online Validator](http://pep8online.com/).
+    * Bakers Hub has been validated by using online validation tools [W3C HTML Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), [JSHint JavaScript Validator](https://jshint.com/) and the [Python Checker](https://www.pythonchecker.com/).
 
 * ### HTML Validation Image
 
-    ![HTML Validation](static/images/readme-images/html-validation-image.png)
+    ![HTML Validation](images/html%20check.png)
 
 * ### CSS Validation Image
 
-    ![CSS Validation](static/images/readme-images/css-validation-image.png)
+    ![CSS Validation](images/css.png)
 
 * ### JSHint map.js Image
 
-    ![JavaScript Validation](static/images/readme-images/jshint-map-js-image.png)
+    ![JavaScript Validation](images/jshint.png)
 
-    * The JavaScript code for map.js was taken from the Code Institute Resume Project which shows students how to integrate google maps on a website.
+* # Python Validation Image 
 
-* ### JSHint nav.js Image
+ *  Some of the screenshots present an error simply because the lines should not be longer than 79 characters however this is not an error to cause concern.
 
-    ![JavaScript Validation](static/images/readme-images/jshint-nav-js-image.png)
 
-* ### PEP8 Validation Image (accounts/apps.py)
+    ![Python Checker (blog/forms.py)](images/blog:forms.png)
+    ![Python Checker (blog/models.py)](images/blog:models.png)
+    ![Python Checker (blog/urls.py)](images/blog:urls.png)
+    ![Python Checker (blog/views.py)](images/blog:views.png)
+    ![Python Checker (bakershub/settings.py)](images/bakershub:settings.png)
+    ![Python Checker (bakershub/urls.py)](images/bakershub:urls.png)
 
-    <details><summary><b>PEP8 Validation Image</b></summary>
-
-    ![PEP8 Validation (accounts/apps.py)](static/images/readme-images/pep8-accounts-apps.png)
     </details><br />
 
 * ## Lighthouse Testing 
@@ -324,20 +325,76 @@ All the libraries used for this project are located in the requirements.txt file
 
     * The lighthouse tests were conducted in incognito/private windows due to extensions interfering with the results.<br /><br />
 
-* ### Chrome Desktop Lighthouse Result - Home Page
+* ### Chrome Desktop Lighthouse Result
 
-    ![Chrome Desktop Lighthouse](static/images/readme-images/desktop-lighthouse-home-image.png)
+    ![Chrome Desktop Lighthouse](images/lighthouse%201.png)
+    ![Chrome Desktop Lighthouse](images/lighthouse%202.png)
+    ![Chrome Desktop Lighthouse](images/lighthouse.png)
+    ![Chrome Desktop Lighthouse](images/lighthouse%203.png)
+
 
 
 * ## Accessibility Testing
     * I also put the website through [a11y](https://color.a11y.com/Contrast/) to further test the contrast and found no issues. <br /><br />
 
-    ![a11y Test](static/images/readme-images/a11y-contrast-image.png)
+    ![a11y](images/a11y.png)
 
 * ## Responsiveness Testing
-    * I conducted responsive tests manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).<br /><br />
+    * I conducted responsive tests manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/), I did this by changing the device at the top to see how it would display on various devices.<br /><br />
 
-    ![Responsive Test Sheet](static/images/readme-images/responsive-check-image.png)
+    ![Responsive Test](images/responsive%201.png)
+    ![Responsive Test](images/responsive%202.png)
+    ![Responsive Test](images/responsive%203.png)
+    ![Responsive Test](images/responsive%204.png)
+
+* ## Manual Testing
+In addition to the other tests, I have conducted a manual check list for myself to carry out to make sure that everything is working as intended.
 
 
-    ![Responsive Test Sheet](static/images/readme-images/mobile-responsive-check-image.png)
+## Site User
+
+- **View Posts:**
+  - ✔ I can view a list of posts so that I can select one to read.
+
+- **Read Full Post:**
+  - ✔ I can click on a post so that I can read the full text.
+
+- **View Likes:**
+  - ✔ I can view the number of likes on each post so that I can see which is the most popular or viral.
+
+- **View Comments:**
+  - ✔ I can view comments on an individual post so that I can read the conversation.
+
+- **Register Account:**
+  - ✔ I can register an account so that I can comment and like.
+
+- **Leave Comments:**
+  - ✔ I can leave comments on a post so that I can be involved in the conversation.
+
+- **Like/Unlike Posts:**
+  - ✔ I can like or unlike a post so that I can interact with the content.
+
+## Site Admin
+
+- **View Likes:**
+  - ✔ I can view the number of likes on each post so that I can see which is the most popular or viral.
+
+- **View Comments:**
+  - ✔ I can view comments on an individual post so that I can read the conversation.
+
+- **CRUD Operations on Posts:**
+  - ✔ I can create, read, update, and delete posts so that I can manage my blog content.
+
+- **Create Draft Posts:**
+  - ✔ I can create draft posts so that I can finish writing the content later.
+
+- **Approve/Disapprove Comments:**
+  - ✔ I can approve or disapprove comments so that I can filter out objectionable comments.
+
+* ## Browser Compatibility
+    * The website has had manual and responsive tests conducted on the below browsers with additional Lighthouse testing on Google Chrome and I was presented with no issues.
+        * Google Chrome
+        * Microsoft Edge
+        * Safari
+        <br /><br />
+

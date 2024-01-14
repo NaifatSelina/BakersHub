@@ -12,6 +12,7 @@ class ArticleList(generic.ListView):
 
 class ArticleDetail(View):
 
+
     def get(self, request, slug, *args, **kwargs):
         queryset = Article.objects.filter(publication_status=1)
         article = get_object_or_404(queryset, url_slug=slug)
@@ -20,15 +21,15 @@ class ArticleDetail(View):
 
         return render(
             request,
-            "article_detail.html",
-            {
+           "article_detail.html",
+             {
                 "article": article,  
                 "comments": comments,
                 "commented": False,
                 "liked": liked,
                 "comment_form": CommentForm()
             },
-        )
+         )
 
 
     def post(self, request, slug, *args, **kwargs):
@@ -61,6 +62,7 @@ class ArticleDetail(View):
 
     
 class ArticleLike(View):
+    
     
     def post(self, request, slug, *args, **kwargs):
         article = get_object_or_404(Article, url_slug=slug)
