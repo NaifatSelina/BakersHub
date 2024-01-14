@@ -398,3 +398,29 @@ In addition to the other tests, I have conducted a manual check list for myself 
         * Safari
         <br /><br />
 
+* ## Bugs Fixed 
+
+    ### ENV.PY
+        
+    * A bug I encountered and was able to fix entailed having to move my env.py file to the root directory so I could migrate my changes, beforehand it wasn't in the correct directory and migrations were causing an error. <br /><br />
+
+    ![Bug Fixed](images/bug%20fixed%20by%20moving%20env.py%20to%20root%20directory%20-%20wouldn't%20migrate.png)
+
+
+     ### Allowed Host
+        
+    * A bug I encountered and was able to fix entailed adding the link of my applications to the allowed hosts in the settings.py file of the project so I could successfully deploy my project onto Heroku in my initial deployment. <br /><br />
+
+    ![Bug Fixed](images/wasn't%20deploying...check%20commit.png)
+
+* ## Bugs Unfixed
+ 
+    ### Forgot your password?
+
+    * There is a faulty link that urges users to press it if they have forgotten their password, to reset it, however I was going to remove it as the walkthrough for CodeStar guided me to but I was unable to do so as I had to manually transfer my templates and the template with that link was unavailable to me. Meaning I was unable to remove it from my form. 
+
+    ### commentor name
+
+    * Another bug I wish I could have fixed was the fact that the commentors name does not appear next to the comment and there is no reason why. I done extensive troubleshooting but was unfortunately unable to rectify this bug. I aim to fix it in the next release of this webpage.
+
+    [Back to top](<#contents>)
