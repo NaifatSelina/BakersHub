@@ -9,7 +9,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: xx-large;  
-    color: #4A4A4F;
+    color: #000000;
 }
 
 /* header text */
@@ -18,20 +18,24 @@ span.navbar-text.text-muted {
     font-size: x-large;
 }
 
-.red-o {
-    color: #E84610;
+.pink-o {
+    color: #f458be;
 }
 
 .thin {
     font-weight: 300;
 }
 
+.text-muted {
+    color: #000000!important;
+}
+
 .light-bg {
-    background-color: #fff;
+    background-color: #9cc1a482!important;
 }
 
 .dark-bg {
-    background-color: #dd80c0;
+    background-color: #1b311a;
 }
 
 .main-bg {
@@ -52,7 +56,7 @@ span.navbar-text.text-muted {
     bottom: 5%;
     min-width: 30%;
     left: -2px;
-    background-color: #23BBBB;
+    background-color: #1b311a;
 }
 
 .author {
