@@ -3,12 +3,19 @@ body {
     font-style: "Playfair Display", sans-serif;
 }
 
+/* brand text */
 .brand {
-    font-family: "Satisfy", cursive;
+    font-family: "Satisfy", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: xx-large;  
     color: #4A4A4F;
+}
+
+/* header text */
+span.navbar-text.text-muted {
+    font-family: "Satisfy", sans-serif;
+    font-size: x-large;
 }
 
 .red-o {
