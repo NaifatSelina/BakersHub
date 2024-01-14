@@ -22,6 +22,15 @@ span.navbar-text.text-muted {
     color: #f458be;
 }
 
+a {
+    text-decoration: none;
+    color: #f458be;
+}
+
+.masthead-image:after {
+    background: #f458be;
+}
+
 .thin {
     font-weight: 300;
 }
@@ -120,18 +129,18 @@ span.navbar-text.text-muted {
 }
 
 .btn-signup {
-    background-color: #23BBBB;
+    background-color: #f458be;
     color: #fff;
 }
 
 .btn-signup:hover,
 .btn-signup:active {
     background-color: #fff;
-    color: #23BBBB;
+    color: #f458be;
 }
 
 .link {
-    color: #23BBBB;
+    color: #f458be;
     text-decoration: none;
 }
 
