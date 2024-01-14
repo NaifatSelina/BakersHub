@@ -71,3 +71,4 @@ class ArticleLike(View):
             article.readers.add(request.user)
 
         return HttpResponseRedirect(reverse('article_detail', args=[slug]))
+
