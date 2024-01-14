@@ -100,3 +100,19 @@ The design wireframes were created using [Figma](https://www.figma.com/). I crea
 
 * Admin
     * Functionality to manage and add to articles, comments and accounts.
+
+
+## Design Choices
+
+ * ### Typography
+      The font I chose for the main 'Bakers|Hub' title was 'Satsify' in order to make it stand out and also as I feel it suited the baking aesthetic. I think it is still clear to read and adds some variety to the simplistic webpage. I decided to add this font to the text in the heading for the same reasons.
+
+    * I chose 'Playfair Display' for the rest of my webpage as I still wanted to prioritize simplicity and accessability. This font is highly easy to read and it is clear and crisp, I knew it was the perfect choice for the webpage. When looking at recipes I wanted users to be able to clearly and quickly access recipies whilst in the kitchen and not have to worry about not being able to actually read the words. As recipies can get long and wordy, this was a valid concern. I added 'sans-serif' as the font that the browser can fall back onto if the former fonts weren't available.
+
+ * ### Colour Scheme
+      The colour scheme chosen is a mostly green and black with touches of pink. I wanted to site to appear professional and calming which were my reasons for chosing the green and black colours, however I still wanted to add some fun with the pink. Calming and fun, just like baking!<br /><br />
+
+![Colour Palette](images/black.png)
+![Colour Palette](images/dark%20green.png)
+![Colour Palette](images/light%20green.png)
+![Colour Palette](images/pink.png)
