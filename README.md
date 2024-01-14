@@ -223,3 +223,17 @@ In the management of the Bakers Hub project, I extensively employed GitHub's rob
 
 ![Admin Accounts](images/admin%20users.png)
 </details><br />
+
+* ## Future Features 
+
+* ### Article Creation 
+
+    * The current webpage followed thee codestar Code Institute blog. As I has failed making my own project before I wanted to follow the functionality of the codestar blog and not do anything to make my site crash. This means that my site doesn't yet allow users to create an article themselves, I will definitely aim to add this functionality in the future for better interactivity.
+
+* ### Gallery
+
+    * A gallery where users can view pretty baking photos without any text for inspiration is something that I believe would be very beneficial. As stated throughout this readme, simplicity is something I find valuable and in this day and age alot of users are just looking for something they can look at and scroll through without having to process much- bingo! A gallery.
+
+* ### User Profile Page
+
+    * Currently, when a user creates an account on Bakers Hub, all the essential functionalities for navigation, recipe submissions, and engagement with the platform are available. However, I am working on introducing a specialized profile page that will enable users to personalize their experience by changing and viewing profile details, accessing their recipe submissions, reviewing interactions and exploring personalized data related to their baking journey on Bakers Hub.
