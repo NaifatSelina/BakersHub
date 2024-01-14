@@ -89,3 +89,14 @@ The design wireframes were created using [Figma](https://www.figma.com/). I crea
 ![Figma](images/sign%20up%20wire.png)
 
 [Back to top](<#contents>)
+
+## Site Structure
+
+* Main User Website
+    * Home, Sign Up, Article Detail, Login.
+    * Accessible, simple and cohesive design.
+    * Simple, easy viewing of different recipes.
+    * Interaction is easy with just liking and commenting- no overstimulation.
+
+* Admin
+    * Functionality to manage and add to articles, comments and accounts.
