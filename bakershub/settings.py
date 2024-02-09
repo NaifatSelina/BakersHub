@@ -37,7 +37,8 @@ ALLOWED_HOSTS = [
     'bakershub-2af44a4fc0e7.herokuapp.com',
     '8000-naifatselina-bakershub-s8seqy97agy.ws-eu107.gitpod.io',
     'bakershub.herokuapp.com',
-    'localhost'
+    'localhost',
+    '8000-naifatselina-bakershub-s8seqy97agy.ws-eu108.gitpod.io'
 ]
 
 
